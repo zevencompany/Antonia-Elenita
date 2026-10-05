@@ -1,0 +1,8 @@
+{
+  "name": "Remix Template Psicologa",
+  "description": "Um espaço de escuta, acolhimento e cuidado para compreender o que você sente e cuidar da sua saúde emocional. Atendimento psicológico individual com Antonia Elenita, Psicóloga (CRP 00/00000).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
