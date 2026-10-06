@@ -1,6 +1,6 @@
 export const PROFESSIONAL_NAME = 'Antonia Elenita';
 export const PROFESSIONAL_TITLE = 'Psicóloga';
-export const CRP_NUMBER = 'CRP 00/00000';
+export const CRP_NUMBER = 'CRP 06/232506';
 export const INSTAGRAM_HANDLE = '@psicologa.antonia_elenita';
 export const INSTAGRAM_URL = 'https://instagram.com/psicologa.antonia_elenita';
 

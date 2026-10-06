@@ -41,19 +41,21 @@ export const Hero: React.FC = () => {
               Um espaço para compreender o que você sente e cuidar da sua saúde emocional.
             </h1>
 
-            <p className="text-[15.5px] sm:text-[16.5px] md:text-[17px] leading-[1.58] text-[#55514D] font-normal max-w-[500px]">
+            <p className="text-[15.5px] sm:text-[16.5px] md:text-[17px] leading-[1.58] text-[#55514D] font-normal max-w-[520px]">
               Atendimento psicológico individual voltado para o cuidado com a depressão,
-              sintomas ansiosos, regulação emocional e instabilidade de humor, em um espaço
-              seguro e sem julgamentos.
+              sintomas ansiosos, regulação emocional, instabilidade de humor e transtorno por
+              uso de substâncias — além do apoio a familiares e pessoas próximas.
             </p>
 
-            {/* Subtle metadata tags */}
-            <div className="mt-5 flex items-center gap-2 text-xs text-[#716C66]">
-              <span>Escuta qualificada</span>
+            {/* Subtle clinical competency tags */}
+            <div className="mt-5 flex flex-wrap items-center gap-x-2.5 gap-y-1.5 text-xs text-[#716C66]">
+              <span>Depressão e ansiedade</span>
               <span aria-hidden="true">·</span>
-              <span>Cuidado emocional</span>
+              <span>Regulação emocional</span>
               <span aria-hidden="true">·</span>
-              <span>Atendimento individual</span>
+              <span>Uso de substâncias</span>
+              <span aria-hidden="true">·</span>
+              <span>Apoio a familiares</span>
             </div>
           </div>
 
@@ -114,7 +116,7 @@ export const Hero: React.FC = () => {
                 </defs>
                 <text className="text-[6.8px] font-medium tracking-[0.2em] fill-[#11100F] uppercase">
                   <textPath href="#sealCirclePath" startOffset="0%">
-                    • ANTONIA ELENITA • CRP 00/00000 • PSICÓLOGA •
+                    • ANTONIA ELENITA • CRP 06/232506 • PSICÓLOGA •
                   </textPath>
                 </text>
               </svg>
