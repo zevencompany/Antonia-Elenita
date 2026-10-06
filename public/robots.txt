@@ -1,0 +1,6 @@
+# robots.txt para Antonia Elenita — Psicóloga
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ais-pre-eqvndiypxmbcgmwgxqsm3u-721768190102.us-east1.run.app/sitemap.xml

@@ -16,9 +16,12 @@ export const FinalCtaSection: React.FC = () => {
         <div className="hidden lg:block w-[180px] xl:w-[210px] h-[260px] rounded-[20px] overflow-hidden border border-[rgba(60,45,30,0.08)] shadow-[0_6px_20px_rgba(50,35,20,0.04)] shrink-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02]">
           <img
             src={leftImage}
-            alt="Detalhe calmo de consultório com caderno e xícara"
+            alt="Ambiente de consultório sereno com mesa de madeira, xícara de cerâmica e caderno"
+            width={210}
+            height={260}
             className="w-full h-full object-cover"
             loading="lazy"
+            decoding="async"
           />
         </div>
 
@@ -56,9 +59,12 @@ export const FinalCtaSection: React.FC = () => {
         <div className="hidden lg:block w-[180px] xl:w-[210px] h-[260px] rounded-[20px] overflow-hidden border border-[rgba(60,45,30,0.08)] shadow-[0_6px_20px_rgba(50,35,20,0.04)] shrink-0 transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02]">
           <img
             src={rightImage}
-            alt="Canto aconchegante com poltrona e luz natural"
+            alt="Espaço terapêutico aconchegante com poltrona confortável em linho e iluminação natural"
+            width={210}
+            height={260}
             className="w-full h-full object-cover"
             loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

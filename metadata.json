@@ -1,6 +1,6 @@
 {
   "name": "Remix Template Psicologa",
-  "description": "Um espaço de escuta, acolhimento e cuidado para compreender o que você sente e cuidar da sua saúde emocional. Atendimento psicológico individual com Antonia Elenita, Psicóloga (CRP 06/232506).",
+  "description": "Atendimento psicológico com Antonia Elenita (CRP 06/232506). Cuidado em depressão, ansiedade, regulação emocional e transtorno por uso de substâncias. Agende.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

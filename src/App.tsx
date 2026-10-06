@@ -21,6 +21,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F7F5F1] text-[#11100F] font-sans antialiased overflow-x-hidden selection:bg-[#E8D8C5] selection:text-[#11100F]">
+      {/* Skip to Main Content Link for Accessibility */}
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-[#A8610D] focus:text-white focus:rounded-full focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#A8610D] text-sm font-medium transition-all"
+      >
+        Pular para o conteúdo principal
+      </a>
+
       {/* 01 — Floating Navbar */}
       <Navbar />
 

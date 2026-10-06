@@ -41,6 +41,7 @@ export const Navbar: React.FC = () => {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Agendar conversa pelo WhatsApp (abre em nova aba)"
           className="md:hidden text-xs font-medium px-4 py-2 bg-[#A8610D] hover:bg-[#93540A] text-[#FCFBF9] rounded-full transition-colors shadow-xs"
         >
           Agendar
@@ -65,7 +66,8 @@ export const Navbar: React.FC = () => {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative flex items-center gap-2 pl-4 pr-1.5 py-1.5 text-[13.5px] font-medium text-[#FCFBF9] bg-[#A8610D] hover:bg-[#93540A] rounded-full transition-all duration-220 cursor-pointer shadow-[0_2px_8px_rgba(168,97,13,0.15)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A8610D] focus-visible:ring-offset-2"
+            aria-label="Agendar conversa pelo WhatsApp (abre em nova aba)"
+            className="group relative flex items-center gap-2 pl-4 pr-1.5 py-1.5 text-[13.5px] font-medium text-[#FCFBF9] bg-[#A8610D] hover:bg-[#92530A] rounded-full transition-all duration-220 cursor-pointer shadow-[0_2px_8px_rgba(168,97,13,0.15)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A8610D] focus-visible:ring-offset-2"
           >
             <span>Agendar conversa</span>
             <span className="w-7 h-7 rounded-full bg-[#FCFBF9] text-[#A8610D] flex items-center justify-center transition-transform duration-220 group-hover:translate-x-[2.5px]">
@@ -79,7 +81,7 @@ export const Navbar: React.FC = () => {
           type="button"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="md:hidden p-2 text-[#11100F] hover:text-[#A8610D] focus-visible:outline-none rounded-full"
-          aria-label={mobileMenuOpen ? 'Fechar menu' : 'Abrir menu'}
+          aria-label={mobileMenuOpen ? 'Fechar menu de navegação' : 'Abrir menu de navegação'}
           aria-expanded={mobileMenuOpen}
         >
           {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -107,6 +109,7 @@ export const Navbar: React.FC = () => {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Agendar conversa no WhatsApp (abre em nova aba)"
             onClick={() => setMobileMenuOpen(false)}
             className="w-full flex items-center justify-center gap-2 py-3 text-sm font-medium text-white bg-[#A8610D] rounded-full cursor-pointer"
           >

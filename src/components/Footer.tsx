@@ -19,6 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
     <footer
       className="bg-[#DCC0A2] rounded-t-[32px] pt-14 pb-10 px-6 sm:px-10 text-[#11100F] mt-16 sm:mt-24 shadow-[0_-8px_30px_rgba(50,35,20,0.03)]"
       role="contentinfo"
+      aria-label="Rodapé institucional"
     >
       <div className="max-w-[1140px] mx-auto">
         {/* Top Center: Minimal Logo / Monogram & Thin Horizontal Line */}
@@ -100,6 +101,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Agendar uma conversa pelo WhatsApp (abre em nova aba)"
               className="group inline-flex items-center gap-3 pl-5 pr-1.5 py-1.5 h-[46px] bg-[#A8610D] hover:bg-[#92530A] text-[#FCFBF9] rounded-full transition-all duration-220 cursor-pointer shadow-[0_3px_12px_rgba(168,97,13,0.2)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A8610D]"
             >
               <span className="text-[14px] font-medium tracking-tight">
@@ -122,6 +124,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
                   href={WHATSAPP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Conversar no WhatsApp pelo número ${WHATSAPP_DISPLAY} (abre em nova aba)`}
                   className="text-[14.5px] text-[#11100F] hover:text-[#A8610D] transition-colors inline-block"
                 >
                   WhatsApp: {WHATSAPP_DISPLAY}
@@ -132,6 +135,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy }) => {
                   href={INSTAGRAM_URL}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Visitar perfil no Instagram ${INSTAGRAM_HANDLE} (abre em nova aba)`}
                   className="text-[14.5px] text-[#11100F] hover:text-[#A8610D] transition-colors inline-block"
                 >
                   Instagram: {INSTAGRAM_HANDLE}
